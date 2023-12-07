@@ -4,8 +4,15 @@
 
 html {
   --color_box: #ded2c3;
+  --bagground_col: #f9f6ee;
+  --font_col: #212427;
   --primary_font: "Gambarino", serif;
   --secondary_font: "Switzer", sans-serif;
+}
+
+body {
+  background-color: var(--bagground_col);
+  color: var(--font_col);
 }
 
 h1,
@@ -34,7 +41,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--bagground_col);
 }
 
 .logo img {
@@ -128,10 +135,4 @@ header {
   nav.active .menu a {
     font-size: 24px;
   }
-}
-
-body,
-header {
-  background-color: #f9f6ee;
-  color: #212427;
 }
