@@ -1,0 +1,34 @@
+html {
+  --color_box: #ded2c3;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 2% 0 2%;
+}
+
+#con_2_3 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  column-gap: 2cqw;
+  background-color: var(--color_box);
+}
+
+#con_2_3_a {
+  grid-column: 1;
+}
+
+#con_2_3_b {
+  grid-column: 2;
+}
+
+#con_2_3_c {
+  grid-column: 3;
+}
+
+#times {
+  list-style: none;
+}
