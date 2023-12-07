@@ -1,6 +1,24 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  --color_box: #ded2c3;
+  --primary_font: "Gambarino", serif;
+  --secondary_font: "Switzer", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--primary_font);
+}
+
+h3,
+p,
+li {
+  font-family: var(--secondary_font);
+}
+
 body {
   margin: 0;
 }
@@ -115,4 +133,5 @@ header {
 body,
 header {
   background-color: #f9f6ee;
+  color: #212427;
 }
