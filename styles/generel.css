@@ -25,7 +25,9 @@ header {
   width: 30%;
   height: 30%;
 }
-
+.logo {
+  padding-left: 4%;
+}
 .menu {
   display: flex;
   list-style: none;
