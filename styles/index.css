@@ -1,0 +1,46 @@
+Body {
+  font-family: var(--secondary_font);
+}
+
+header {
+  z-index: 100;
+  position: absolute;
+}
+
+#hero {
+  position: relative;
+  top: 0;
+}
+
+.custom-button {
+  background-color: #f1d9e4c8;
+  font-family: var(--secondary_font);
+  color: var(--font_col);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  width: 17%;
+  height: 6%;
+  left: 43%;
+  top: 49%;
+}
+.custom-button:hover {
+  background-color: #f1d9e4;
+}
+
+#con_1_2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+#con_1_2_b {
+  grid-column: 2;
+  grid-row: 1 / span2;
+}
+#index_img_b {
+  display: block;
+  width: 70%;
+  height: auto;
+}

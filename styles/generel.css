@@ -40,7 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: var(--bagground_col);
+  /* background-color: var(--bagground_col); */
 }
 
 .logo img {
