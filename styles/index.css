@@ -37,6 +37,7 @@ a {
   left: 41%;
   top: 70%;
   text-align: center;
+  translate:(-41%, -70%);
 }
 .custom-button:hover {
   background-color: #f1d9e4;
@@ -45,11 +46,17 @@ a {
 #con_1_2_a {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  padding: 5%;
+  grid-template-rows: repeat(5, auto);
+    padding: 5%;
+    row-gap: 2%;
 }
 
-#idx_txt2 {
+#idx_txt1{
+  margin: 0%;
+}
+
+.idx_txt2 {
+  margin: 0%;
   line-height: 150%;
 }
 
@@ -69,6 +76,11 @@ a {
 
 .index_img_4 {
   padding: 10%;
+  transform: 0.3s ease-in-out;
+}
+
+.index_img_4:hover {
+  transform: scale(1.05);
 }
 
 .con_1_4_a {
