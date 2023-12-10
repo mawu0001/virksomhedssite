@@ -10,11 +10,19 @@ header {
 #hero {
   position: relative;
   top: 0;
+  width: 100%;
+  height: auto;
 }
 
 a {
   text-decoration: none;
+  font-weight: 600;
 }
+
+#myButton2 {
+  text-align: center;
+}
+
 .custom-button {
   background-color: #f1d9e4c8;
   font-family: var(--secondary_font);
@@ -26,9 +34,9 @@ a {
   position: absolute;
   width: 17%;
   height: 6%;
-  left: 43%;
-  top: 49%;
-  text-align: center;
+  /* left: 41%;
+  top: 68%;
+  text-align: center; */
 }
 .custom-button:hover {
   background-color: #f1d9e4;
@@ -39,6 +47,10 @@ a {
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   padding: 5%;
+}
+
+#idx_txt2 {
+  line-height: 150%;
 }
 
 #index_img_b {
