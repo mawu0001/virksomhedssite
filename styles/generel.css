@@ -22,7 +22,11 @@ body {
   margin: 0;
 }
 
-h1,
+h1 {
+  font-family: var(--primary_font);
+  font-size: 370%;
+}
+
 h2 {
   font-family: var(--primary_font);
 }
@@ -31,6 +35,7 @@ h3,
 p,
 li {
   font-family: var(--secondary_font);
+  font-size: 100%;
 }
 
 /* HEADER + MENU */
