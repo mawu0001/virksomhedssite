@@ -33,10 +33,10 @@ a {
   cursor: pointer;
   position: absolute;
   width: 17%;
-  height: 6%;
-  /* left: 41%;
-  top: 68%;
-  text-align: center; */
+  height: 8%;
+  left: 41%;
+  top: 70%;
+  text-align: center;
 }
 .custom-button:hover {
   background-color: #f1d9e4;
