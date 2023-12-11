@@ -80,6 +80,7 @@ header {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  font-family: var(--secondary_font);
 }
 
 .menu a:hover {
@@ -185,9 +186,8 @@ footer {
   justify-content: center;
 }
 
-
-@media (max-width: 768px){
-h1 {
+@media (max-width: 768px) {
+  h1 {
     font-family: var(--primary_font);
     font-size: 150%;
   }
@@ -203,5 +203,4 @@ h1 {
     font-family: var(--secondary_font);
     font-size: 50%;
   }
-
 }
