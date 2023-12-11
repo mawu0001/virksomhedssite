@@ -99,3 +99,16 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .babylight,
+  .touch_up,
+  .brude_styling,
+  .makeup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90%;
+    color: white;
+  }
+}
