@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   font-family: var(--primary_font);
+  font-size: 150%;
 }
 
 h3,
@@ -182,4 +183,25 @@ footer {
 #icon_2 {
   display: flex;
   justify-content: center;
+}
+
+
+@media (max-width: 768px){
+h1 {
+    font-family: var(--primary_font);
+    font-size: 150%;
+  }
+
+  h2 {
+    font-family: var(--primary_font);
+    font-size: 70%;
+  }
+
+  h3,
+  p,
+  li {
+    font-family: var(--secondary_font);
+    font-size: 50%;
+  }
+
 }
