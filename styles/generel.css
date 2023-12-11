@@ -81,6 +81,8 @@ header {
   transition: color 0.3s;
   text-align: end;
   font-family: var(--secondary_font);
+  font-weight: 600;
+  margin-top: 3%;
 }
 
 .menu a:hover {
