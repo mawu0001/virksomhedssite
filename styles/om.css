@@ -1,4 +1,50 @@
+h1,
+h2 {
+  margin-left: 4rem;
+}
+
+p {
+  line-height: 1.5;
+}
 .omos {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 3rem;
+}
+
+.div1 {
+  padding: 20px;
+}
+
+.div2 {
+  text-align: center;
+}
+
+.div2 img {
+  max-width: 70%;
+  height: auto;
+  padding: 10px;
+  margin-left: 10rem;
+}
+
+#myButton2 {
+  margin-top: 20px;
+  margin-left: 8rem;
+  padding: 3rem;
+}
+
+.custom-button {
+  background-color: #f1d9e4c8;
+  font-family: var(--secondary_font);
+  color: var(--font_col);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  text-align: center;
+}
+
+.custom-button:hover {
+  background-color: #f1d9e4;
 }
