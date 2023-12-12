@@ -41,16 +41,34 @@ a {
   font-weight: 600;
 }
 
+#con_1_2_a{
+display: grid;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+ #index_img_b{
+  width: 70%;
+  height: auto;
+  justify-self: center;
+ }
+
 #con_1_4 {
   display: grid;
-}
+    grid-template-columns: repeat(2, auto);
+  }
+
 
 .con_1_4_a {
   padding: 0 5% 0 5%;
 }
 
+.index_img_4{
+  width: 100%;
+  height: auto;
+}
+
 .con_1_4_b {
-  padding: 10%;
   position: relative;
   top: -49%;
   text-align: center;
@@ -147,7 +165,6 @@ a {
     font-weight: 600;
     z-index: 100;
     font-size: 100%;
-
   }
 
   #map2 {
@@ -176,6 +193,6 @@ a {
     justify-self: center;
     grid-column: 1/span2;
     padding-bottom: 5%;
-
   }
+
 }
