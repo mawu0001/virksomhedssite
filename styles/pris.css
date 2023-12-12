@@ -119,4 +119,61 @@ em {
 .booking1 {
   background-color: var(--color_box);
   margin: 2%;
+  padding-bottom: 5%;
+}
+
+.anmodning {
+  padding-left: 15%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+}
+
+.navn {
+  background-color: white;
+  width: 400px;
+  height: 35px;
+  font-family: var(--primary_font);
+  font-size: 150%;
+  padding-left: 2%;
+}
+
+#full-name {
+  width: 315px;
+  height: 35px;
+  font-family: var(--primary_font);
+  font-size: 100%;
+  border: 0;
+  outline: none;
+}
+
+.email {
+  background-color: white;
+  width: 400px;
+  height: 35px;
+  font-family: var(--primary_font);
+  font-size: 150%;
+  padding-left: 2%;
+}
+
+#email2 {
+  width: 300px;
+  height: 35px;
+  font-family: var(--primary_font);
+  font-size: 100%;
+  border: 0;
+  outline: none;
+}
+
+button {
+  position: relative;
+  margin-top: 5%;
+  font-family: var(--primary_font);
+  font-size: 100%;
+  border: 0;
+  background-color: var(--color_box);
+  cursor: pointer;
 }
