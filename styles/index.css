@@ -2,6 +2,10 @@ Body {
   font-family: var(--secondary_font);
 }
 
+header {
+  z-index: 100;
+  position: absolute;
+}
 
 #hero {
   position: relative;
