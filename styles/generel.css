@@ -133,7 +133,6 @@ header {
     top: 60px;
     left: 0;
     width: 100%;
-    z-index: 1;
   }
 
   nav.active .menu li {
