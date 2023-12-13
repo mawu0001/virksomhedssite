@@ -40,7 +40,6 @@ li {
   line-height: 170%;
 }
 
-
 /* HEADER + MENU */
 
 header {
@@ -48,7 +47,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  
 }
 
 .logo img {
@@ -60,7 +58,6 @@ header {
 
 .logo {
   padding-left: 4%;
-
 }
 .menu {
   display: flex;
@@ -110,7 +107,7 @@ header {
   display: none;
 }
 
-nav{
+nav {
   z-index: 11;
 }
 @media screen and (min-width: 0px) {
@@ -157,11 +154,11 @@ nav{
 footer {
   width: 100%;
   padding: 0 2% 0 2%;
-  color: #9b8f81;
+  color: #000000;
 }
 
 .f_txt1 {
-  color: #7a654e;
+  color: #000000;
 }
 
 #con_2_3 {
@@ -190,9 +187,9 @@ footer {
   line-height: 250%;
 }
 
-    #map1 {
-      display: block;
-    }
+#map1 {
+  display: block;
+}
 
 #map2 {
   display: none;
@@ -203,7 +200,7 @@ footer {
   justify-content: center;
 }
 
-#icon_1{
+#icon_1 {
   display: none;
 }
 
@@ -218,49 +215,48 @@ footer {
     font-size: 90%;
   }
 
-/***************FOOTER***************/
+  /***************FOOTER***************/
   h3,
   p,
   li {
-  font-family: var(--secondary_font);
-  font-size: 70%;
+    font-family: var(--secondary_font);
+    font-size: 70%;
   }
 
-     #con_2_3 {
-      display: grid;
-        grid-template-rows: repeat(2, auto);
-        grid-template-columns: 1fr auto;
-        row-gap: 5%;
-        column-gap: 0;
-     }
-  
-     #con_2_3_b {
-       grid-row: 1;
-       grid-column: 2;
-     }
-  
-     #con_2_3_c {
-       grid-row: 2;
-       justify-self: center;
-       grid-column: 1/span2;
-       padding-bottom: 5%;
-      }
+  #con_2_3 {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr auto;
+    row-gap: 5%;
+    column-gap: 0;
+  }
 
+  #con_2_3_b {
+    grid-row: 1;
+    grid-column: 2;
+  }
 
-            #map2 {
-              display: block;
-            }
-      
-            #map1 {
-              display: none;
-            }
+  #con_2_3_c {
+    grid-row: 2;
+    justify-self: center;
+    grid-column: 1 / span2;
+    padding-bottom: 5%;
+  }
 
-    #icon_1 {
+  #map2 {
+    display: block;
+  }
+
+  #map1 {
+    display: none;
+  }
+
+  #icon_1 {
     display: flex;
-   justify-content: center;
-    }
+    justify-content: center;
+  }
 
-    #icon_2 {
-  display: none;
+  #icon_2 {
+    display: none;
   }
-  }
+}
