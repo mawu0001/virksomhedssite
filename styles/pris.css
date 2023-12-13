@@ -168,12 +168,25 @@ form {
   outline: none;
 }
 
+.besked {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 2;
+  width: 1000px;
+  font-family: var(--primary_font);
+  font-size: 100%;
+  margin-top: 2%;
+  outline: none;
+  border: 0;
+}
+
 button {
-  position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
   margin-top: 5%;
   font-family: var(--primary_font);
   font-size: 100%;
   border: 0;
   background-color: var(--color_box);
   cursor: pointer;
+  width: 70px;
 }
