@@ -1,6 +1,6 @@
 h1,
 h2 {
-  margin-left: 4rem;
+
 }
 
 p {
@@ -22,6 +22,8 @@ p {
 
 .img1 {
   grid-row: 3;
+  width: 70%;
+justify-self: center;
 }
 
 @media (min-width: 768px) {
@@ -50,6 +52,7 @@ p {
   .img1 {
     grid-column: 2;
     grid-row: 1/span 2;
+width: 100%;
   }
 
   #img1_1 {
