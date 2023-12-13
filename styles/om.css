@@ -1,3 +1,11 @@
+h1,
+h2 {
+  margin-left: 4rem;
+}
+
+p {
+  line-height: 1.5;
+}
 .omos {
   display: grid;
   grid-template-rows: repeat(3, auto);
