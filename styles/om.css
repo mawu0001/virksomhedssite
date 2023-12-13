@@ -1,4 +1,52 @@
 .omos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  padding: 5%;
 }
+
+#txt1_2 {
+  grid-row: 1;
+}
+
+#text3 {
+  grid-row: 2;
+}
+
+.img1 {
+  grid-row: 3;
+}
+
+@media (min-width: 768px) {
+  .omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    padding: 5%;
+  }
+
+  #text1 {
+    margin: 0;
+  }
+
+  #text2 {
+    grid-row: 2;
+    margin: 0;
+  }
+
+  #text3 {
+    grid-row: 2;
+    margin: 0;
+    padding-right: 5%;
+  }
+
+  .img1 {
+    grid-column: 2;
+    grid-row: 1/span 2;
+  }
+
+  #img1_1 {
+    height: auto;
+    width: 90%;
+  }
+}
+

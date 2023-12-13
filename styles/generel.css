@@ -109,6 +109,10 @@ header {
 .burger {
   display: none;
 }
+
+nav{
+  z-index: 11;
+}
 @media screen and (min-width: 0px) {
   .menu {
     display: none;
@@ -186,6 +190,14 @@ footer {
   line-height: 250%;
 }
 
+    #map1 {
+      display: block;
+    }
+
+#map2 {
+  display: none;
+}
+
 #icon_2 {
   display: flex;
   justify-content: center;
@@ -206,12 +218,12 @@ footer {
     font-size: 90%;
   }
 
-  /***************FOOTER***************/
+/***************FOOTER***************/
   h3,
   p,
   li {
-    font-family: var(--secondary_font);
-    font-size: 70%;
+  font-family: var(--secondary_font);
+  font-size: 70%;
   }
 
      #con_2_3 {
@@ -232,14 +244,23 @@ footer {
        justify-self: center;
        grid-column: 1/span2;
        padding-bottom: 5%;
-}
+      }
 
-#icon_1 {
-  display: flex;
-  justify-content: center;
-}
 
-#icon_2 {
+            #map2 {
+              display: block;
+            }
+      
+            #map1 {
+              display: none;
+            }
+
+    #icon_1 {
+    display: flex;
+   justify-content: center;
+    }
+
+    #icon_2 {
   display: none;
-}
-}
+  }
+  }

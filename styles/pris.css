@@ -3,47 +3,6 @@ HEAD html {
   --primary_font: "Gambarino", serif;
 }
 
-footer {
-  width: 100%;
-  padding: 0 2% 0 2%;
-  color: #9b8f81;
-}
-
-.f_txt1 {
-  color: #7a654e;
-}
-
-#con_2_3 {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  justify-content: space-between;
-  column-gap: 5%;
-  background-color: var(--color_box);
-  padding: 2%;
-}
-
-#con_2_3_a {
-  grid-column: 1;
-}
-
-#con_2_3_b {
-  grid-column: 2;
-}
-
-#con_2_3_c {
-  grid-column: 3;
-}
-
-#times {
-  list-style: none;
-  line-height: 250%;
-}
-
-#icon_2 {
-  display: flex;
-  justify-content: center;
-}
-
 .PRISER {
   display: flex;
   justify-content: center;
@@ -55,7 +14,6 @@ footer {
   background-color: var(--color_box);
   margin: 2%;
   padding: 2%;
-  padding-left: 15%;
   padding-top: 0%;
 }
 
@@ -65,8 +23,12 @@ footer {
   background-color: var(--color_box);
   margin: 2%;
   padding: 2%;
-  padding-left: 13.5%;
+
   padding-top: 0%;
+}
+
+.con_1_1_a{
+  justify-self: center;
 }
 
 em {
@@ -122,6 +84,11 @@ em {
   padding-bottom: 5%;
 }
 
+
+.con2_2_2{
+  display: grid;
+}
+
 .anmodning {
   padding-left: 15%;
 }
@@ -129,7 +96,8 @@ em {
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 15%;
+  justify-self: center;
+  column-gap: 5%;
 }
 
 .navn {
@@ -171,12 +139,17 @@ form {
 .besked {
   grid-column: 1 / span 3;
   grid-row: 2 / span 2;
-  width: 1000px;
+  width: 100px;
   font-family: var(--primary_font);
   font-size: 100%;
   margin-top: 2%;
   outline: none;
   border: 0;
+}
+
+textarea{
+  font-family: var(--secondary_font);
+  width: 840px;
 }
 
 button {
@@ -186,7 +159,8 @@ button {
   font-family: var(--primary_font);
   font-size: 100%;
   border: 0;
-  background-color: var(--color_box);
   cursor: pointer;
-  width: 70px;
+  background-color: #f1d9e4c8;
+    width: 100px;
+    height: 40px;
 }
